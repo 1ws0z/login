@@ -187,7 +187,8 @@ body {
     .externo-item:hover {
         background:linear-gradient(#ffffff,#ffffff)
     }
-    .externo-item::selection {
-        background:linear-gradient(#cfcfcf,#cfcfcf)
+    .externo-item:active {
+        background:linear-gradient(#cfcfcf,#cfcfcf);
+        background-color:#cfcfcf ;
     }
 }
