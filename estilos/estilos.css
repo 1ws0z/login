@@ -52,6 +52,14 @@ body {
     transition: all .3s;
 }
 
+.externo-item:hover {
+    background:linear-gradient(#cfcfcf,#cfcfcf)
+}
+
+.externo-item::selection {
+    background:linear-gradient(#cfcfcf,#cfcfcf)
+}
+
 .externo-item span{
     margin-left: 4px;
 }
@@ -157,7 +165,7 @@ body {
     }
 
     .externo-item {
-        height: 50px;
+        height: 40px;
     }
 
 
@@ -175,4 +183,10 @@ body {
         margin-bottom: 13px;
     }
 
+    .externo-item:hover {
+        background:linear-gradient(#ffffff,#ffffff)
+    }
+    .externo-item::selection {
+        background:linear-gradient(#cfcfcf,#cfcfcf)
+    }
 }
