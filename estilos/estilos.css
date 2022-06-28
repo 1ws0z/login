@@ -151,4 +151,18 @@ body {
     .externo-item span {
         display: inline;
     }
+    
+    .externo-item {
+        height: 40px;
+    }
+
+
+    .login-formulario input {
+        height: 40px;
+    }
+
+    .boton-iniciar-seccion {
+        height: 40px;
+    }
+}
 }
